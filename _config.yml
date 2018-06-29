@@ -1,0 +1,13 @@
+title: Lakhan Mandloi
+description: Web developer and a proud Indian
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE

@@ -1,5 +1,19 @@
-title: Lakhan Mandloi
-description: Web developer and a proud Indian
+title: "Lakhan Mandloi"
+description: "Web developer and a proud Indian"
+keywords:
+author: "Lakhan Mandloi"
+language: "en-Gb"
+logo: "/images/lakhan-mandloi-circular.png"
+email: "lakhansinghmandloi1@gmail.com"
+website: "https://lakhanmandloi.github.io/"
+mobile: ""
+github: "https://github.com/lakhanmandloi/"
+linkedin: "https://www.linkedin.com/in/lakhanmandloi/"
+twitter: "https://twitter.com/Lakhan_Mandloi"
+facebook: "https://www.facebook.com/Lakhansinghmandloi1"
+youtube: ""
+
+ga: 
 
 gems:
   - jekyll-sitemap

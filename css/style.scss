@@ -1,7 +1,63 @@
 ---
 ---
-
+@import 'bootstrap-reboot.min.css';
+@import 'bootstrap-grid.min.css';
 body {
-	background-color: #e5e5e5;
-	height: 100vh;
+  font-family: 'Baloo', cursive;
+  background: 
+    radial-gradient(circle, transparent 20%, rgba(221, 221, 221, 0) 20%, #f9f8f3 80%, transparent 80%, transparent), 
+    radial-gradient(circle, transparent 76%, #f9f8f3 20%, #f9f8f3 80%, transparent 80%, transparent) 50px 50px, 
+    linear-gradient(rgba(168, 177, 187, 0.0392156862745098) 8px, transparent 8px) 0 -4px, 
+    linear-gradient(90deg, rgba(168, 177, 187, 0.050980392156862744) 8px, transparent 8px) -4px 0;
+  background-color: #f9f8f3;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+.container{
+  max-width: 768px;
+  margin: 0 auto;
+}
+.name{
+  color: #FFD560;
+  font-weight: 800;
+}
+.bg-1{
+  background-color:#0C0F13;
+}
+nav ul li{
+  list-style: none;
+  float:left;
+}
+nav ul li a{
+  padding: 5px 10px 
+}
+header a{
+  color: #FFD560;
+}
+header a:hover,
+headeri a:active,
+header a:focus{
+  color: #FFD560; 
+}
+header {
+  position: fixed;
+  top:0;
+  width:100%;
+  padding: 10px 0;
+  color: #fff;
+}
+footer {
+  position: fixed;
+  width:100%;
+  bottom:0;
+  padding:2px 0;
+  color: #fff;
+}
+.logo {
+  height:80px;
+  width:auto;
+  min-height:40px;
+  min-width:40px;
+}
+main {
+  text-align: justify;
 }

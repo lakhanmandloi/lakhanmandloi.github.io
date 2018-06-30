@@ -30,6 +30,7 @@ body {
 	font-size: 14px;
 	font-weight:400;
 	letter-spacing: normal;
+	color: #e8ce83;
 }
 .header-sticky .name{
   font-size: 1.5rem !important;
@@ -37,7 +38,7 @@ body {
 .bg-1{
   background-color:#2a374a;
   box-shadow: 0 0 12px 0 #2a374a;
-  color: #FFD560;
+  color: #e8ce83;
 }
 nav ul{
 	display:flex;
@@ -71,7 +72,7 @@ footer {
   width:100%;
   bottom:0;
   padding:2px 0;
-  color: #fff;
+  color: #e8ce83;
   font-family: 'Baloo', cursive;
 }
 .logo {
@@ -88,6 +89,18 @@ main {
   letter-spacing: 1px;
   word-spacing: 4px;
   color: #666;
+  margin-bottom:30px;
+}
+.social-icons {
+  text-align:right;
+}
+.social-icons a {
+  color: #e8ce83;
+  margin: 0 10px 0 0;
+  font-size: 20px
+}
+.header-sticky .social-icons{
+  display: none;
 }
 .headerFix{
 	margin: 0 0 0 2rem;
@@ -102,4 +115,5 @@ h2 {
     padding: 20px;
     background: rgba(255, 255, 255, 0.8);
     border: 2px dashed #ccc;
+    border-radius: 20px 0 20px 0;
 }

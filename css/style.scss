@@ -81,11 +81,25 @@ footer {
   min-width:40px;
 }
 main {
-  text-align: center;
-  height: 100vh;
   display: flex;
   align-items: center;
+  min-height: 90vh;
+  padding: 35px 0;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  color: #666;
 }
 .headerFix{
 	margin: 0 0 0 2rem;
+}
+
+h2 {
+  border-bottom: 2px dashed #bbb;
+  margin-bottom:1rem;
+  padding:2px;
+}
+.main-content{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px dashed #ccc;
 }

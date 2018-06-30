@@ -12,8 +12,7 @@ linkedin: "https://www.linkedin.com/in/lakhanmandloi/"
 twitter: "https://twitter.com/Lakhan_Mandloi"
 facebook: "https://www.facebook.com/Lakhansinghmandloi1"
 youtube: ""
-
-ga: 
+ga: "UA-121628963-1"
 
 gems:
   - jekyll-sitemap

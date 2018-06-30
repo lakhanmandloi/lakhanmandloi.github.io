@@ -4,7 +4,9 @@ function scrollDynamics(){
   headerHeight = jQuery('#header').outerHeight();
   scrolledHeight = jQuery(window).scrollTop();
   dynamicLogoHeight = 80 - (scrolledHeight / 4);
+  dynamicNameFont = 30 - (scrolledHeight / 10);
   jQuery('.logo').css('height',dynamicLogoHeight);
+  jQuery('.name').css('font-size',dynamicNameFont);
 }
 
 $(document).ready(function() {
@@ -14,7 +16,7 @@ $(document).ready(function() {
 
 $(window).on('scroll',function(e) {
 	scrollDynamics();
-    if( scrolledHeight > 0){
+    if( scrolledHeight > headerHeight){
 		$('#header').addClass('header-sticky');	
     } else {
 		$('#header').removeClass('header-sticky');

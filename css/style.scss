@@ -27,10 +27,10 @@ body {
   word-spacing: 2px;
 }
 .desc{
-	font-size: 14px;
-	font-weight:400;
-	letter-spacing: normal;
-	color: #e8ce83;
+  font-size: 14px;
+  font-weight:400;
+  letter-spacing: normal;
+  color: #e8ce83;
 }
 .header-sticky .name{
   font-size: 1.5rem !important;
@@ -41,9 +41,9 @@ body {
   color: #e8ce83;
 }
 nav ul{
-	display:flex;
-	margin: 0;
-	justify-content: flex-end;
+  display:flex;
+  margin: 0;
+  justify-content: flex-end;
 }
 nav ul li{
   list-style: none;
@@ -103,17 +103,22 @@ main {
   display: none;
 }
 .headerFix{
-	margin: 0 0 0 2rem;
+  margin: 0 0 0 2rem;
 }
-
 h2 {
   border-bottom: 2px dashed #bbb;
   margin-bottom:1rem;
   padding:2px;
 }
 .main-content{
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 2px dashed #ccc;
-    border-radius: 20px 0 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px dashed #ccc;
+  border-radius: 20px 0 20px 0;
+}
+.nimbu{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  z-index: 2;
 }

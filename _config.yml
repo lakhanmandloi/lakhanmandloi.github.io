@@ -24,3 +24,17 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+
+defaults:
+  -
+    scope:
+      path: "experiments"
+    values:
+      layout: "entry"
+      type: "experiment"
+  -
+    scope:
+      path: "blogs"
+    values:
+      layout: "entry"
+      type: "blog"

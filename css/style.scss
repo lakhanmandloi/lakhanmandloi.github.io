@@ -68,7 +68,6 @@ header {
   font-family: 'Baloo', cursive;
 }
 footer {
-  position: fixed;
   width:100%;
   bottom:0;
   padding:2px 0;
@@ -87,7 +86,7 @@ main {
   min-height: 90vh;
   padding: 35px 0;
   letter-spacing: 0.6px;
-  word-spacing: 3px;
+  word-spacing: 1px;
   color: #666;
   margin-bottom:30px;
 }
@@ -121,6 +120,7 @@ h2 {
   top: 0;
   right: 25px;
   z-index: 2;
+  display:none;
 }
 .footer-img{
   position: fixed;
@@ -128,7 +128,12 @@ h2 {
   left: 25px;
   z-index: 2;
   max-height:100px;
+  display:none;
 }
 .india{
   height:40px;
+  display:none;
+}
+.skill{
+  border-bottom: 1px dotted #ccc;
 }

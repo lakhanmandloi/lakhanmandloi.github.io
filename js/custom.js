@@ -37,3 +37,4 @@ $(document).ready(function() {
     });
 });
 /* Emoji ends */
+console.log("%c !! 💀 👽 👻  !!! \n Glad to see you here !! cheers !! 😉😍 I hope you liked this 👆. \n If not, you can drop me an email 📨. !! Suggestions are most welcome !!", "background: #2a374a; color: #ff7660; padding:5px; font-weight:bold; font-size:20px; border-radius:10px;");

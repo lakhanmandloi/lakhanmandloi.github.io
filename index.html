@@ -20,12 +20,14 @@ description: "Web developer and a proud Indian"
 {% for experiment in experiments %}
 	{% if experiment.published == "true" %}
 		<li class="card">
-			<a href="{{experiment.url}}">{{experiment.title}}</a><br />
+			<a href="{{experiment.url}}">{{experiment.title}}</a>
+			<small> ({{experiment.status}})</small><br/>
 			<span>{{experiment.description}}</span>
 		</li>	
 	{% endif %}
 {% endfor %}
 </ul>
+<p class="text-right"><a href="/experiments.html" title="See all..">See all..</a></p>
 
 <h2>Blogs</h2>
 

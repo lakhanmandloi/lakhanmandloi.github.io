@@ -12,7 +12,7 @@ description: "Web developement related experiments done by Lakhan Mandloi"
 {% for entry in entries %}
 	{% if entry.published == "true" %}
 		<li class="card">
-			<a href="{{entry.url}}">{{entry.title}}</a><br />
+			<a href="{{entry.url}}">{{entry.title}}</a><small> ({{entry.status}})</small><br />
 			<span>{{entry.description}}</span>
 		</li>	
 	{% endif %}

@@ -82,8 +82,7 @@ footer {
 }
 main {
   display: flex;
-  align-items: center;
-  min-height: 90vh;
+  min-height: 80vh;
   padding: 35px 0;
   letter-spacing: 0.6px;
   word-spacing: 1px;
@@ -136,4 +135,7 @@ h2 {
 }
 .skill{
   border-bottom: 1px dotted #ccc;
+}
+.text-right{
+  text-align:right;
 }

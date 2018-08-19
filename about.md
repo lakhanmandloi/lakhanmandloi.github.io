@@ -8,7 +8,7 @@ description: "Web developer and a proud Indian"
 
 An IT enthusiast and Half-baked full stack developer.<span class="emoji"></span> 
 
-3.5 years experienced in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in Analytics, SEO and Security.
+3.5+ years experienced in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in Analytics, SEO and Security.
 
 
 ## Skills

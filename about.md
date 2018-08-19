@@ -6,7 +6,7 @@ description: "Web developer and a proud Indian"
 
 ## Summary
 
-An IT enthusiast, Half-baked full stack developer and a good cook. <span class="emoji"></span> 
+An IT enthusiast and Half-baked full stack developer.<span class="emoji"></span> 
 
 3.5 years experienced in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in Analytics, SEO and Security.
 

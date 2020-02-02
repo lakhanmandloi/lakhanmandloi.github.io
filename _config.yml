@@ -32,9 +32,11 @@ defaults:
     values:
       layout: "entry"
       type: "experiment"
+      comments: true
   -
     scope:
       path: "blogs"
     values:
       layout: "entry"
       type: "blog"
+      comments: true

@@ -22,7 +22,7 @@ description: "An IT enthusiast and Half-baked full stack developer"
 {% for experiment in experiments %}
 	{% if experiment.published == "true" %}
 		<li class="card">
-			<a href="{{experiment.url}}">{{experiment.title}}</a>
+			<a href="{{experiment.url}}">{{experiment.title}}</a><br />
 			<small> ({{experiment.status}})</small><br/>
 			<span>{{experiment.description}}</span>
 		</li>	

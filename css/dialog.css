@@ -1,0 +1,57 @@
+#dialogBackground{
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dialogBox {
+    background: #f5f5f5;
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 3px;
+    max-width: 75vw;
+}
+#dialogButton {
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+}
+#dialogText {
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+@media screen and (min-width: 768px){
+    #dialogBox {
+        max-width: 50vw;
+    }
+    #dialogText {
+        font-size: 32px;
+    }
+}
+.btn-clear {
+    background: #eee;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    padding: 2px 7px;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 2px;
+    cursor: pointer;
+}

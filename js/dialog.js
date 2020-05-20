@@ -1,5 +1,10 @@
 window.addEventListener("load", function(){
 
+    var welcomeText = "Hi there,<br/> Welcome to my Website..!! I hope you will surely find something interesting on this website..!!";
+    var welcomeBackText = "Hi there,<br/> Welcome back to my Website..!! I hope you found something interesting in your last visit. I am sure you will find something new and interesting on this website..!!";
+    var dialogTiming = 120; // in seconds
+    var dialogDisplayTime = 8000; // in milliseconds
+
     var dialog = document.createElement('div');
     dialog.innerHTML = '<div id="dialogBackground"><div id="dialogBox"><button id="dialogButton" title="Close" click="closeDialog();">X</button><div id="dialogText"></div></div></div>'
     document.body.appendChild(dialog);
@@ -7,6 +12,7 @@ window.addEventListener("load", function(){
 
     var dialogButton = document.getElementById("dialogButton");
     var dialogText = document.getElementById("dialogText");
+    var timer = document.getElementById("timer");
 
     dialogButton.addEventListener("click", function(){
         dialog.style.display = "none";
@@ -27,9 +33,9 @@ window.addEventListener("load", function(){
         localStorage.setItem("visitCount", ++visitCount);
         console.log("Session Initiated..!!",sessionStorage.sessionStartsAt);
         if (localStorage.firstVisit) {
-            setDialog("Hi there,<br/> Welcome back to my Website..!! I hope you found something interesting in your last visit. I am sure you will find something new and interesting on this website..!!");
+            setDialog(welcomeBackText);
             openDialog();
-            //setTimeout(function(){ dialog.style.display = "none"; }, 8000);
+            //setTimeout(function(){ dialog.style.display = "none"; }, dialogDisplayTime);
         }
     }
 
@@ -38,9 +44,9 @@ window.addEventListener("load", function(){
         localStorage.firstVisit = new Date();
         localStorage.visitCount = 1;
         console.log("First Visit..!!",localStorage.firstVisit);
-        setDialog("Hi there,<br/> Welcome to my Website..!! I hope you will surely find something interesting on this website..!!");
+        setDialog(welcomeText);
         openDialog();
-        //setTimeout(function(){ dialog.style.display = "none"; }, 8000);
+        //setTimeout(function(){ dialog.style.display = "none"; }, dialogDisplayTime);
     }
 
     /* Check after every second */
@@ -52,16 +58,24 @@ window.addEventListener("load", function(){
         var timeSpentInSec = Math.floor( timeSpent / 1000);
         console.log("Time Spent :", timeSpentInSec, "Seconds" );
         for (i = 0; i < dialogs.length; i++) {
-            if (timeSpentInSec == (i*120)){
+            if (timeSpentInSec == (i*dialogTiming)){
                 openDialog();
                 string = '" '+dialogs[i-1]+' "';
                 setDialog(string);
             }
         }
+        if (timeSpentInSec <= dialogTiming){
+            remainingTime = (dialogTiming - timeSpentInSec);
+        } else {
+            remainingTime = (dialogTiming - (timeSpentInSec % dialogTiming));
+        }
+        
         if(!sessionStorage.sessionStartsAt){
             clearInterval(intervalChecks);
             console.log("Set Interval Cleared..!!");
         }
+        remainingTimeString = remainingTime+ " second";
+        document.getElementById("timer").innerText = remainingTimeString;
     }
 
 });

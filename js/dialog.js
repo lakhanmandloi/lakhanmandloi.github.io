@@ -27,7 +27,7 @@ window.addEventListener("load", function(){
         localStorage.setItem("visitCount", ++visitCount);
         console.log("Session Initiated..!!",sessionStorage.sessionStartsAt);
         if (localStorage.firstVisit) {
-            setDialog("Hi there,<br/> Welcome to back my Website..!! I hope you found something interesting in your last visit. I am sure you will find something new and interesting on this website..!!");
+            setDialog("Hi there,<br/> Welcome back to my Website..!! I hope you found something interesting in your last visit. I am sure you will find something new and interesting on this website..!!");
             openDialog();
             //setTimeout(function(){ dialog.style.display = "none"; }, 8000);
         }

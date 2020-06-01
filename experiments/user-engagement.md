@@ -20,3 +20,6 @@ It will -
 - Show a dialog every 2 mins to motivate user to do something.
 - Next dialog appears in : <span id="timer"></span>.
 - Button to reset all : <button onclick="clearStorage();" class="btn-clear" title="Clear Storage">Clear Storage</button>
+
+
+<div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/02A98629CACD67F891112FE1F5C88BBA'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/22.png' /></a></div> 

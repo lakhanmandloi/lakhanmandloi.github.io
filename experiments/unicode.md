@@ -3,6 +3,7 @@ title: "Fonts are automatically applied based on the Unicode range (language) it
 description: "POC to show - Fonts are automatically applied based on the Unicode range (language) it supports. "
 keywords: 
 status: "Completed"
+statusClass: "badge badge-success"
 github: ""
 startedDate: ""
 publishedDate: ""

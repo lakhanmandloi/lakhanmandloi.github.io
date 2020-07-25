@@ -3,6 +3,7 @@ title: "Experiment to show flexbox changes its directionality based on the attri
 description: "POC to show - Experiment to show flexbox changes its directionality based on the attribute added"
 keywords: 
 status: "Completed"
+statusClass: "badge badge-success"
 github: ""
 startedDate: ""
 publishedDate: ""

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Lakhan Mandloi"
-description: "Web developer and a proud Indian"
+title: "About Lakhan Mandloi"
+description: "A proud Indian and Full stack developer"
 ---
 
 ## Summary
@@ -13,7 +13,8 @@ Having 5+ years experience in the Web Development industry. Worked on UI Develop
 
 ## Skills
 
-### Experienced on: 
+### Experienced in:
+
 
 - **Frontend technologies:** <span class="skill">React</span>, <span class="skill">Angular</span>, <span class="skill">JavaScript</span>, <span class="skill">jQuery</span>, <span class="skill">Handlebars</span>, <span class="skill">CSS</span>, <span class="skill">SCSS</span>, <span class="skill">HTML</span>, <span class="skill">Bootstrap</span>, <span class="skill">Semantic UI</span>.
 - **Backend technologies:** <span class="skill">PHP</span>, <span class="skill">Node js</span>.

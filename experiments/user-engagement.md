@@ -3,6 +3,7 @@ title: "User Engagement"
 description: "User Engagement through dialogs"
 keywords: 
 status: "Completed"
+statusClass: "badge badge-success"
 github: ""
 startedDate: ""
 publishedDate: ""

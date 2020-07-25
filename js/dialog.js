@@ -1,7 +1,7 @@
 window.addEventListener("load", function(){
 
-    var welcomeText = "Hi there,<br/> Welcome to my Website..!! I hope you will surely find something interesting on this website..!!";
-    var welcomeBackText = "Hi there,<br/> Welcome back to my Website..!! I hope you found something interesting in your last visit. I am sure you will find something new and interesting on this website..!!";
+    var welcomeText = "Hi there,<br/> Welcome to my Website..!! I hope you find something interesting on this website..!!";
+    var welcomeBackText = "Hi there,<br/> Welcome back to the Website..!!";
     var dialogTiming = 120; // in seconds
     var dialogDisplayTime = 8000; // in milliseconds
 

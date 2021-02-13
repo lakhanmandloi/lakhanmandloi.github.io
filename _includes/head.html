@@ -3,29 +3,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-<link rel="manifest" href="/favicon/site.webmanifest">
-<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#f9f8f3">
-<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
-<meta name="theme-color" content="#f9f8f3">
+<link
+	rel="apple-touch-icon"
+	sizes="180x180"
+	href="/favicon/apple-touch-icon.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="32x32"
+	href="/favicon/favicon-32x32.png"
+/>
+<link
+	rel="icon"
+	type="image/png"
+	sizes="16x16"
+	href="/favicon/favicon-16x16.png"
+/>
+<link rel="manifest" href="/favicon/site.webmanifest" />
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="msapplication-TileColor" content="#f9f8f3" />
+<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png" />
+<meta name="theme-color" content="#f9f8f3" />
 <!-- /Favicons -->
 
 <!-- SEO -->
 <title>{{page.title}}</title>
-<meta name="description" content="{{page.description}}"/>
-<meta name="author" content="{{site.author}}">
+<meta name="description" content="{{page.description}}" />
+<meta name="author" content="{{site.author}}" />
 <link rel="canonical" href="{{page.url}}" />
 
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index,follow" />
 <!-- /SEO -->
 
 <!-- Og Tags -->
-<meta property="og:type" content="website"/>
-<meta property="og:site_name" content="{{site.title}}"/>
-<meta property="og:locale" content="{{site.language}}"/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{site.title}}" />
+<meta property="og:locale" content="{{site.language}}" />
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:description" content="{{page.description}}" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
@@ -52,30 +66,63 @@
 <!-- /Caching Fixes -->
 
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.ga}}"></script>
+<script
+	async
+	src="https://www.googletagmanager.com/gtag/js?id={{site.ga}}"
+></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
 
-  gtag('config', '{{site.ga}}');
+	gtag('config', '{{site.ga}}');
 </script>
 <!-- /Google Analytics -->
 
-
 <!-- CSS-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo|Raleway" >
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css?{{ site.time | | date: '%d%m%Y'}}"  />
-<link rel="stylesheet" href="/css/dialog.css?{{ site.time | | date: '%d%m%Y'}}"  />
+<link
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Baloo|Raleway"
+/>
+<link
+	rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+	integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+	crossorigin="anonymous"
+/>
+<link
+	href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+	rel="stylesheet"
+/>
+<link
+	rel="stylesheet"
+	href="/css/style.css?{{ site.time | | date: '%d%m%Y'}}"
+/>
+<link
+	rel="stylesheet"
+	href="/css/dialog.css?{{ site.time | | date: '%d%m%Y'}}"
+/>
 <!-- /CSS-->
 
 <!-- JS-->
-<script type="text/javascript" src="/js/jquery-3.3.1.min.js?{{ site.time | | date: '%d%m%Y'}}"></script>
-<script type="text/javascript" src="/js/custom.js?{{ site.time | | date: '%d%m%Y'}}"></script>
-<script type="text/javascript" src="/js/dialog.js?{{site.time | | date: '%d%m%Y'}}"></script>
+<script
+	type="text/javascript"
+	src="/js/jquery-3.3.1.min.js?{{ site.time | | date: '%d%m%Y'}}"
+></script>
+<script
+	type="text/javascript"
+	src="/js/custom.js?{{ site.time | | date: '%d%m%Y'}}"
+></script>
+<script
+	type="text/javascript"
+	src="/js/dialog.js?{{site.time | | date: '%d%m%Y'}}"
+></script>
 <!-- /JS-->
 
 <script src="https://cdn.jsdelivr.net/npm/emojione@3.1.6/lib/js/emojione.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emojione@3.1.6/extras/css/emojione.min.css"/>
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/emojione@3.1.6/extras/css/emojione.min.css"
+/>

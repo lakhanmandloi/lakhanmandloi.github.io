@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
 	var welcomeText =
 		'Hi there,<br/> Welcome to my Website..!! I hope you find something interesting on our website..!!';
 	var welcomeBackText = 'Hi there,<br/> Welcome back to the Website..!!';
-	var dialogTiming = 120; // in seconds
+	var dialogTiming = 600; // in seconds
 	var dialogDisplayTime = 8000; // in milliseconds
 
 	var dialog = document.createElement('div');

@@ -1,18 +1,18 @@
-title: "Lakhan Mandloi"
-description: "5+ Years Experienced Full Stack Developer with a demonstrated history of working in the Web Development industry. Skilled in UI Development , DevOps and Backend Development. Having special interest in UX, analytics, and performance."
+title: 'Lakhan Mandloi'
+description: '5+ Years Experienced Full Stack Developer with a demonstrated history of working in the Web Development industry. Skilled in UI Development , DevOps and Backend Development. Having special interest in UX, analytics, and performance.'
 keywords:
-author: "Lakhan Mandloi"
-language: "en-Gb"
-logo: "/images/lakhan-mandloi-circular.png"
-email: ""
-website: "https://lakhanmandloi.github.io/"
-mobile: ""
-github: "https://github.com/lakhanmandloi/"
-linkedin: "https://www.linkedin.com/in/lakhanmandloi/"
-twitter: "https://twitter.com/Lakhan_Mandloi"
-facebook: "https://www.facebook.com/Lakhansinghmandloi1"
-youtube: ""
-ga: "UA-121628963-1"
+author: 'Lakhan Mandloi'
+language: 'en-Gb'
+logo: '/images/lakhan-mandloi-circular.png'
+email: 'hi@lakhanmandloi.in'
+website: 'https://lakhanmandloi.github.io/'
+mobile: ''
+github: 'https://github.com/lakhanmandloi/'
+linkedin: 'https://www.linkedin.com/in/lakhanmandloi/'
+twitter: 'https://twitter.com/Lakhan_Mandloi'
+facebook: 'https://www.facebook.com/Lakhansinghmandloi1'
+youtube: ''
+ga: 'UA-121628963-1'
 
 gems:
   - jekyll-sitemap
@@ -26,17 +26,15 @@ exclude:
   - LICENCE
 
 defaults:
-  -
-    scope:
-      path: "experiments"
+  - scope:
+      path: 'experiments'
     values:
-      layout: "entry"
-      type: "experiment"
+      layout: 'entry'
+      type: 'experiment'
       comments: true
-  -
-    scope:
-      path: "blogs"
+  - scope:
+      path: 'blogs'
     values:
-      layout: "entry"
-      type: "blog"
+      layout: 'entry'
+      type: 'blog'
       comments: true

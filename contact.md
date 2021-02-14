@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 'Contact me'
-description: 'A proud Indian and Full stack developer'
+title: 'संपर्क करें'
+description: 'एक गौरवान्वित भारतीय और ६+ वर्ष अनुभवी सॉफ्टवेयर अभियान्ता'
 ---
 
-## Contact me
+## संपर्क करें
 
 <script
 	charset="utf-8"

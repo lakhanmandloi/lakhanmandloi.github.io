@@ -1,16 +1,14 @@
 ---
 layout: default
-title: 'About Lakhan Mandloi'
-description: 'A proud Indian and Full stack developer'
+title: 'मेरे बारे मेँ'
+description: 'एक गौरवान्वित भारतीय और ६+ वर्ष अनुभवी सॉफ्टवेयर अभियान्ता'
 ---
 
-## Summary
+## सारांश
 
-An IT enthusiast and Full stack developer..
+एक गौरवान्वित भारतीय और ६+ वर्ष अनुभवी सॉफ्टवेयर अभियान्ता
 
-Having 6+ years experience in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in UX, analytics, and performance.
-
-## Skills
+## कौशल
 
 ### Experienced in:
 

@@ -1,176 +1,216 @@
 ---
 ---
+
 @import 'bootstrap-reboot.min.css';
 @import 'bootstrap-grid.min.css';
 
 body {
-  font-family: Raleway, sans-serif;
-  background: 
-    radial-gradient(circle, transparent 20%, rgba(221, 221, 221, 0) 20%, #f9f8f3 80%, transparent 80%, transparent), 
-    radial-gradient(circle, transparent 76%, #f9f8f3 20%, #f9f8f3 80%, transparent 80%, transparent) 50px 50px, 
-    linear-gradient(rgba(168, 177, 187, 0.0392156862745098) 8px, transparent 8px) 0 -4px, 
-    linear-gradient(90deg, rgba(168, 177, 187, 0.050980392156862744) 8px, transparent 8px) -4px 0;
-  background-color: #f9f8f3;
-  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+	font-family: Raleway, sans-serif;
+	background: radial-gradient(
+			circle,
+			transparent 20%,
+			rgba(221, 221, 221, 0) 20%,
+			#f9f8f3 80%,
+			transparent 80%,
+			transparent
+		),
+		radial-gradient(
+				circle,
+				transparent 76%,
+				#f9f8f3 20%,
+				#f9f8f3 80%,
+				transparent 80%,
+				transparent
+			)
+			50px 50px,
+		linear-gradient(
+				rgba(168, 177, 187, 0.0392156862745098) 8px,
+				transparent 8px
+			)
+			0 -4px,
+		linear-gradient(
+				90deg,
+				rgba(168, 177, 187, 0.050980392156862744) 8px,
+				transparent 8px
+			) -4px 0;
+	background-color: #f9f8f3;
+	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
-.container{
-  max-width: 768px;
-  margin: 0 auto;
+.container {
+	max-width: 768px;
+	margin: 0 auto;
 }
-.name{
-  color: #FFD560;
-  font-weight: 800;
-  letter-spacing: 2px;
-  font-size:30px;
-  padding: 0 0 0 10px;
-  line-height:1;
-  word-spacing: 2px;
+.name {
+	color: #ffd560;
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 30px;
+	padding: 0 0 0 10px;
+	line-height: 1;
+	word-spacing: 2px;
 }
-.desc{
-  font-size: 14px;
-  font-weight:400;
-  letter-spacing: normal;
-  color: #e8ce83;
+.desc {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: normal;
+	color: #e8ce83;
 }
-.header-sticky .name{
-  font-size: 1.5rem !important;
+.header-sticky .name {
+	font-size: 1.5rem !important;
 }
-.bg-1{
-  background-color:#2a374a;
-  box-shadow: 0 0 12px 0 #2a374a;
-  color: #e8ce83;
+.bg-1 {
+	background-color: #2a374a;
+	box-shadow: 0 0 12px 0 #2a374a;
+	color: #e8ce83;
 }
-nav ul{
-  display:flex;
-  margin: 0;
-  justify-content: flex-end;
+nav ul {
+	display: flex;
+	margin: 0;
+	justify-content: flex-end;
 }
-nav ul li{
-  list-style: none;
+nav ul li {
+	list-style: none;
 }
-nav ul li a{
-  padding: 5px 10px 
+nav ul li a {
+	padding: 5px 10px;
 }
-header a{
-  color: #FFD560;
+header a {
+	color: #ffd560;
 }
 header a:hover,
 headeri a:active,
-header a:focus{
-  color: #FFD560; 
+header a:focus {
+	color: #ffd560;
 }
 header {
-  position: fixed;
-  top:0;
-  width:100%;
-  padding: 10px 0;
-  color: #fff;
-  font-family: 'Baloo', cursive;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	font-family: 'Baloo', cursive;
 }
 footer {
-  width:100%;
-  bottom:0;
-  padding:2px 0;
-  color: #e8ce83;
-  font-family: 'Baloo', cursive;
+	width: 100%;
+	bottom: 0;
+	padding: 2px 0;
+	color: #e8ce83;
+	font-family: 'Baloo', cursive;
 }
 .logo {
-  height:80px;
-  width:auto;
-  min-height:40px;
-  min-width:40px;
+	height: 80px;
+	width: auto;
+	min-height: 40px;
+	min-width: 40px;
 }
 main {
-  display: flex;
-  min-height: 80vh;
-  padding: 35px 0;
-  letter-spacing: 0.6px;
-  word-spacing: 1px;
-  color: #666;
-  margin-bottom:30px;
+	display: flex;
+	min-height: 80vh;
+	padding: 35px 0;
+	letter-spacing: 0.6px;
+	word-spacing: 1px;
+	color: #666;
+	margin-bottom: 30px;
 }
 .social-icons {
-  text-align:right;
-  margin-bottom: 10px;
+	text-align: right;
+	margin-bottom: 10px;
 }
 .social-icons a {
-  color: #e8ce83;
-  margin: 0 10px 0 0;
-  font-size: 20px
+	color: #e8ce83;
+	margin: 0 10px 0 0;
+	font-size: 20px;
+	&.hindi {
+		font-weight: 500;
+		font-family: 'Kalam', cursive;
+	}
 }
-.header-sticky .social-icons{
-  display: none;
+.header-sticky .social-icons {
+	display: none;
 }
-.headerFix{
-  margin: 0 0 0 2rem;
+.headerFix {
+	margin: 0 0 0 2rem;
 }
 h2 {
-  border-bottom: 2px dashed #bbb;
-  margin-bottom:1rem;
-  padding:2px;
+	border-bottom: 2px dashed #bbb;
+	margin-bottom: 1rem;
+	padding: 2px;
 }
-.main-content{
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
-  border: 2px dashed #ccc;
-  border-radius: 20px 0 20px 0;
+a {
+	color: #105cad;
 }
-.nimbu{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  z-index: 2;
-  display: none;
+.comments-section {
+	border-bottom: 2px dashed #bbb;
+	margin-bottom: 1rem;
+	padding: 2px;
+	margin-top: 3rem;
 }
-.footer-img{
-  position: fixed;
-  bottom: 40px;
-  left: 25px;
-  z-index: 2;
-  max-height:100px;
-  display:none;
+.main-content {
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	border: 2px dashed #ccc;
+	border-radius: 20px 0 20px 0;
 }
-.india{
-  height:30px;
+.nimbu {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	z-index: 2;
+	display: none;
 }
-.skill{
-  border-bottom: 1px dotted #ccc;
+.footer-img {
+	position: fixed;
+	bottom: 40px;
+	left: 25px;
+	z-index: 2;
+	max-height: 100px;
+	display: none;
 }
-.text-right{
-  text-align:right;
+.india {
+	height: 30px;
+}
+.skill {
+	border-bottom: 1px dotted #ccc;
+}
+.text-right {
+	text-align: right;
 }
 h4 {
-  margin: 0;
+	margin: 0;
 }
 .card {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
+	a {
+		font-weight: 600;
+	}
 }
 
 #experienced-in + ul li {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .badge {
-  display: inline-block;
-  padding: .25em .4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .badge-warning {
-  color: #212529;
-  background-color: #ffc107;
+	color: #212529;
+	background-color: #ffc107;
 }
 .badge-success {
-  color: #fff;
-  background-color: #28a745;
+	color: #fff;
+	background-color: #0b7309;
 }
 .badge-danger {
-  color: #fff;
-  background-color: #dc3545;
+	color: #fff;
+	background-color: #dc3545;
 }

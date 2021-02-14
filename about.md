@@ -8,7 +8,7 @@ description: 'A proud Indian and Full stack developer'
 
 An IT enthusiast and Full stack developer..
 
-Having 5+ years experience in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in UX, analytics, and performance.
+Having 6+ years experience in the Web Development industry. Worked on UI Development, DevOps and Backend Development. Having special interest in UX, analytics, and performance.
 
 ## Skills
 

@@ -1,23 +1,20 @@
 ---
 layout: default
-title: "Experiments"
-description: "Web developement related experiments done by me."
+title: 'Experiments'
+description: 'Web developement related experiments done by me.'
 ---
+
 <h1>{{page.title}}</h1>
 <p>{{page.description}}</p>
 
 {% assign entries = site.pages | where:"type","experiment" %}
 
-
 <ul>
-{% for entry in entries %}
-	{% if entry.published == "true" %}
-		<li class="card">
-			<a href="{{entry.url}}">{{entry.title}}</a><small> ({{entry.status}})</small><br />
-			<span>{{entry.description}}</span>
-		</li>	
-	{% endif %}
-{% endfor %}
+	{% for entry in entries %} {% if entry.published == "true" %}
+	<li class="card">
+		<a href="{{entry.url}}">{{entry.title}}</a>
+		<small class="{{entry.statusClass}}">{{entry.status}}</small><br />
+		<span>{{entry.description}}</span>
+	</li>
+	{% endif %} {% endfor %}
 </ul>
-
-

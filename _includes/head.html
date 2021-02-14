@@ -43,7 +43,7 @@
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:description" content="{{page.description}}" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
-<meta property="og:image" content="{{site.url}}{{page.image}}" />
+<meta property="og:image" content="{{site.url}}/images/banner-en.jpeg" />
 <!-- /Og Tags -->
 
 <!--Twitter Cards -->
@@ -53,7 +53,7 @@
 <meta name="twitter:url" content="{{site.url}}{{page.url}}" />
 <meta name="twitter:title" content="{{page.title}}" />
 <meta name="twitter:description" content="{{page.description}}" />
-<meta name="twitter:image" content="{{site.url}}{{page.image}}" />
+<meta name="twitter:image" content="{{site.url}}/images/banner-en.jpeg" />
 <!-- /Twitter Cards -->
 
 <!-- Caching Fixes -->
@@ -96,6 +96,11 @@
 	href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
 	rel="stylesheet"
 />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+	href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+	rel="stylesheet"
+/>
 <link
 	rel="stylesheet"
 	href="/css/style.css?{{ site.time | | date: '%d%m%Y'}}"
@@ -115,10 +120,10 @@
 	type="text/javascript"
 	src="/js/custom.js?{{ site.time | | date: '%d%m%Y'}}"
 ></script>
-<script
+<!--<script
 	type="text/javascript"
 	src="/js/dialog.js?{{site.time | | date: '%d%m%Y'}}"
-></script>
+></script>-->
 <!-- /JS-->
 
 <script src="https://cdn.jsdelivr.net/npm/emojione@3.1.6/lib/js/emojione.min.js"></script>

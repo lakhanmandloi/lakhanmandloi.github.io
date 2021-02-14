@@ -120,6 +120,10 @@ main {
 	color: #e8ce83;
 	margin: 0 10px 0 0;
 	font-size: 20px;
+	&.hindi {
+		font-weight: 500;
+		font-family: 'Kalam', cursive;
+	}
 }
 .header-sticky .social-icons {
 	display: none;

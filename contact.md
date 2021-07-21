@@ -1,8 +1,10 @@
 ---
 layout: default
 title: 'Contact me'
-description: 'A proud Indian and Full stack developer'
+description: 'I can be contacted by just filling this form.'
 ---
+
+<h1 class="hide">Contact me</h1>
 
 ## Contact me
 

@@ -2,6 +2,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+{% seo %}
+
 <!-- Favicons -->
 <link
 	rel="apple-touch-icon"
@@ -28,32 +30,20 @@
 <!-- /Favicons -->
 
 <!-- SEO -->
-<title>{{page.title}}</title>
-<meta name="description" content="{{page.description}}" />
-<meta name="author" content="{{site.author}}" />
 <link rel="canonical" href="{{page.url}}" />
-
 <meta name="robots" content="index,follow" />
 <!-- /SEO -->
 
 <!-- Og Tags -->
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="{{site.title}}" />
-<meta property="og:locale" content="{{site.language}}" />
-<meta property="og:title" content="{{page.title}}" />
-<meta property="og:description" content="{{page.description}}" />
-<meta property="og:url" content="{{site.url}}{{page.url}}" />
-<meta property="og:image" content="{{site.url}}/images/banner-en.jpeg" />
+<meta property="og:url" content="{{site.website}}{{page.url}}" />
+<meta property="og:image" content="{{site.website}}/images/banner-en.jpeg" />
 <!-- /Og Tags -->
 
 <!--Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="{{site.twitter}}" />
-<meta name="twitter:creator" content="{{site.twitter}}" />
-<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
-<meta name="twitter:title" content="{{page.title}}" />
-<meta name="twitter:description" content="{{page.description}}" />
-<meta name="twitter:image" content="{{site.url}}/images/banner-en.jpeg" />
+<meta name="twitter:url" content="{{site.website}}{{page.url}}" />
+<meta name="twitter:image" content="{{site.website}}/images/banner-en.jpeg" />
 <!-- /Twitter Cards -->
 
 <!-- Caching Fixes -->

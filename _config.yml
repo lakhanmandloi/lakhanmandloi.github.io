@@ -1,23 +1,39 @@
 title: 'Lakhan Mandloi'
-description: '6+ Years Experienced Full Stack Developer with a demonstrated history of working in the Web Development industry. Skilled in UI Development , DevOps and Backend Development. Having special interest in UX, analytics, and performance.'
-keywords:
+tagline: 'Full stack developer'
+description: '6+ years experienced Full Stack Developer with a demonstrated history of working in the Web Development industry. Experienced in ReactJS, JavaScript, SCSS, NodeJS, PHP, SQL, AWS, Docker, Jenkins and Digital Marketing.'
+keywords: 'ReactJS, JavaScript, SCSS, NodeJS, PHP, SQL, AWS, Docker, Jenkins and Digital Marketing.'
 author: 'Lakhan Mandloi'
-language: 'en-Gb'
+locale: 'en-IN'
+language: 'en-IN'
+generator: 'Haha'
 logo: '/images/lakhan-mandloi-circular.png'
 email: ''
-website: 'https://lakhanmandloi.github.io/'
-mobile: ''
-github: 'https://github.com/lakhanmandloi/'
-linkedin: 'https://www.linkedin.com/in/lakhanmandloi/'
-twitter: 'https://twitter.com/Lakhan_Mandloi'
-facebook: 'https://www.facebook.com/Lakhansinghmandloi1'
+website: 'https://lakhanmandloi.in/'
+githuburl: 'https://github.com/lakhanmandloi/'
+linkedinurl: 'https://www.linkedin.com/in/lakhanmandloi/'
+twitterurl: 'https://twitter.com/Lakhan_Mandloi'
+facebookurl: 'https://www.facebook.com/Lakhansinghmandloi1'
 youtube: ''
 ga: 'UA-121628963-1'
+twitter:
+  username: Lakhan_Mandloi
+  card: summary_large_image
+  creator: Lakhan_Mandloi
+  image: '/images/banner-en.jpeg'
+social:
+  name: Lakhan Mandloi
+  links:
+    - https://twitter.com/Lakhan_Mandloi
+    - https://www.facebook.com/Lakhansinghmandloi1
+    - https://www.linkedin.com/in/lakhanmandloi
+    - https://github.com/lakhanmandloi
+    - https://xn--i1bm4b5b7aybzaf9t.xn--h2brj9c/
 
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-watch
 
 exclude:
   - Gemfile
